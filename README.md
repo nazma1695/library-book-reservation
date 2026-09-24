@@ -211,25 +211,4 @@ the website responsive on:
 
 The navigation menu changes into a hamburger menu on small screens.
 
----
 
-## 11. How to Run
-
-1. Download or clone the project.
-2. Put all five files in the same folder.
-3. Open `index.html` in a web browser.
-4. Click "Book Now" or "Reserve a Book".
-5. Complete the reservation form.
-6. Submit the form.
-
----
-
-## 12. GitHub
-
-Repository:
-
-PASTE YOUR GITHUB REPOSITORY LINK HERE
-
-Example:
-
-https://github.com/yourusername/library-book-reservation
