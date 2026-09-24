@@ -1,6 +1,6 @@
 # LibraReserve - Library Book Reservation System
 
-file:///C:/Users/NAZMA/Desktop/library-book-reservation/index.html
+https://nazma1695.github.io/library-book-reservation/
 
 ## Course
 
