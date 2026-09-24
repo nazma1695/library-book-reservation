@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LibraReserve - Library Book Reservation</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION BAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            <i class="bi bi-book-half"></i>
+            LibraReserve
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#featured">
+                        Featured Books
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        Contact
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link reservation-link" href="reservation.html">
+                        Reserve a Book
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero-section">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-7">
+
+                <span class="badge bg-warning text-dark mb-3">
+                    Your Digital Library Assistant
+                </span>
+
+                <h1 class="display-4 fw-bold">
+                    Reserve Your Favorite Books Easily
+                </h1>
+
+                <p class="lead mt-3">
+                    LibraReserve helps students and book lovers reserve
+                    library books quickly and conveniently from anywhere.
+                </p>
+
+                <div class="mt-4">
+
+                    <a href="reservation.html"
+                       class="btn btn-warning btn-lg me-2">
+                        <i class="bi bi-bookmark-check"></i>
+                        Book Now
+                    </a>
+
+                    <a href="#about"
+                       class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-info-circle"></i>
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+
+                <div class="hero-icon">
+                    <i class="bi bi-journal-bookmark-fill"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="section-title">
+                Why Use LibraReserve?
+            </h2>
+
+            <p class="text-muted">
+                A simple and convenient way to reserve library books.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+
+                <div class="info-box text-center">
+
+                    <i class="bi bi-search"></i>
+
+                    <h4>Find Books</h4>
+
+                    <p>
+                        Easily explore available books and find
+                        the perfect book for your study or reading.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="info-box text-center">
+
+                    <i class="bi bi-calendar-check"></i>
+
+                    <h4>Reserve Online</h4>
+
+                    <p>
+                        Reserve your selected book by completing
+                        our simple online reservation form.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="info-box text-center">
+
+                    <i class="bi bi-clock-history"></i>
+
+                    <h4>Save Time</h4>
+
+                    <p>
+                        Avoid unnecessary waiting and make your
+                        library visit more convenient.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED BOOKS ================= -->
+<section id="featured" class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="section-title">
+                Featured Books
+            </h2>
+
+            <p class="text-muted">
+                Explore some popular books available in our library.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-4">
+
+                <div class="card book-card h-100 shadow-sm">
+
+                    <div class="book-image book-one">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Clean Code
+                        </h5>
+
+                        <p class="card-text">
+                            A practical guide to writing clean,
+                            readable and maintainable software.
+                        </p>
+
+                        <a href="reservation.html"
+                           class="btn btn-primary">
+                            Reserve Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+
+                <div class="card book-card h-100 shadow-sm">
+
+                    <div class="book-image book-two">
+                        <i class="bi bi-database"></i>
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Database Systems
+                        </h5>
+
+                        <p class="card-text">
+                            Learn database concepts, SQL,
+                            relational models and database design.
+                        </p>
+
+                        <a href="reservation.html"
+                           class="btn btn-primary">
+                            Reserve Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+
+                <div class="card book-card h-100 shadow-sm">
+
+                    <div class="book-image book-three">
+                        <i class="bi bi-cpu"></i>
+                    </div>
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            Computer Networks
+                        </h5>
+
+                        <p class="card-text">
+                            Understand networking, protocols,
+                            communication models and the Internet.
+                        </p>
+
+                        <a href="reservation.html"
+                           class="btn btn-primary">
+                            Reserve Book
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CALL TO ACTION ================= -->
+<section class="cta-section py-5">
+
+    <div class="container text-center">
+
+        <h2 class="fw-bold">
+            Ready to Reserve Your Next Book?
+        </h2>
+
+        <p>
+            Complete the reservation form and reserve your book today.
+        </p>
+
+        <a href="reservation.html"
+           class="btn btn-warning btn-lg">
+            <i class="bi bi-bookmark-plus"></i>
+            Reserve a Book
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer id="contact" class="footer-section">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <h5>
+                    <i class="bi bi-book-half"></i>
+                    LibraReserve
+                </h5>
+
+                <p>
+                    A simple online library book reservation system
+                    designed for students and readers.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h5>Contact</h5>
+
+                <p>
+                    <i class="bi bi-envelope"></i>
+                    library@example.com
+                </p>
+
+                <p>
+                    <i class="bi bi-telephone"></i>
+                    +880 1234-567890
+                </p>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h5>Follow Us</h5>
+
+                <a href="#" class="social-icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+
+            <p class="mb-0">
+                © 2026 LibraReserve. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JavaScript -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
